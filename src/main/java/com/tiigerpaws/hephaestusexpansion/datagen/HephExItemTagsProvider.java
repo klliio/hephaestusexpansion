@@ -24,15 +24,15 @@ public class HephExItemTagsProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void addTags(HolderLookup.Provider arg) {
         // KATANA
-        addToolTags(HephExItemRegistry.katana, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        addToolTags(HephExItemRegistry.katana, MULTIPART_TOOL, DURABILITY, TWO_HANDED, PARRY, MELEE, HELD, SWORD);
         // SPEAR
-        addToolTags(HephExItemRegistry.spear, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        addToolTags(HephExItemRegistry.spear, MULTIPART_TOOL, DURABILITY, TWO_HANDED, MELEE, HELD, SWORD);
         // HALBERD
-        addToolTags(HephExItemRegistry.halberd, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        addToolTags(HephExItemRegistry.halberd, MULTIPART_TOOL, DURABILITY, TWO_HANDED, MELEE, HELD, SWORD);
         // GLAIVE
-        addToolTags(HephExItemRegistry.glaive, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        addToolTags(HephExItemRegistry.glaive, MULTIPART_TOOL, DURABILITY, TWO_HANDED, MELEE, HELD, SWORD);
         // CLAYMORE
-        addToolTags(HephExItemRegistry.claymore, MULTIPART_TOOL, DURABILITY, MELEE, HELD, SWORD);
+        addToolTags(HephExItemRegistry.claymore, MULTIPART_TOOL, DURABILITY, TWO_HANDED, MELEE, HELD, SWORD);
 
 
         Consumer<CastItemObject> addCast = cast -> {
